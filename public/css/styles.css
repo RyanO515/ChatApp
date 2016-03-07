@@ -5,9 +5,12 @@
 	align-items: center;
 }
 
+.messages p {
+	margin: 1px 0;
+}
 
 h1#title-main {
-	margin-bottom: 6%;
+	margin-bottom: 5%;
 	color: #ff1a1a;
 	text-shadow: 1px 0 0 #000,
 				 0 1px 0 #000,
@@ -20,7 +23,7 @@ strong {
 }
 
 body {
-	background-color: #e6fff7
+	background-color: #C4FCCF;
 }
 
 li:first-of-type {
@@ -30,4 +33,17 @@ li:first-of-type {
 
 .list-group-item:last-of-type {
 	margin-bottom: 2%;
+}
+
+.chat.well {
+	margin-top: 36px;
+}
+
+.settings:hover {
+	background: #28C448;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
 }
